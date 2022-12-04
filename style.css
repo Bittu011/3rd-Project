@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{ 
+    scroll-behavior: smooth;
+}
+
+.first{
+    background-image: url(./first.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 569px;
+    justify-content: space-evenly;
+}
+
+.main-btn{
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.main-btn:hover{
+    color: greenyellow;
+}
+
+.future{
+    background-color: black;
+    height: 270px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.future1{
+    width: 80%;
+    font-size: xx-large;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+.india_market{
+    margin: 1rem;
+    width: 80%;
+    color: white;
+}
+
+.battery{
+    background-image: url(./ninth.jpg);
+    height: 569px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.eco{
+    background-color: black;
+    height: 270px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.eco1{
+    width: 80%;
+    margin: 1rem;
+    font-size: xx-large;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+.eco2{
+    color: white;
+    width: 80%;
+}
+
+.cost{
+    background-image: url(./sixth.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 569px;
+}
+
+.cost_effective{
+    background-color: black;
+    height: 270px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cost_effective1{
+    width: 80%;
+    margin: 1rem;
+    font-size: xx-large;
+    font-style: italic;
+    color: white;
+    text-decoration: none;
+}
+
+.cost_effective2{
+    width: 80%;
+    color: white;
+}
+
+.last{
+    background-image: url(./eight.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 569px;
+}
+
+.final{
+    background-color: black;
+    height: 170px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    justify-content: space-evenly;
+}
+
+.gmail{
+    color: white;
+}
+
+.touchup{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.sociali{
+    color: white;
+}
+
+.socialicons{
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    font-style: italic;
+}
