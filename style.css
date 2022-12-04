@@ -5,6 +5,7 @@
 
 body{ 
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .first{
@@ -70,7 +71,7 @@ body{
 
 .eco{
     background-color: black;
-    height: 270px;
+    /* height: 270px; */
     text-align: center;
     justify-content: center;
     display: flex;
@@ -106,7 +107,7 @@ body{
 
 .cost_effective{
     background-color: black;
-    height: 270px;
+    /* height: 270px; */
     text-align: center;
     justify-content: center;
     display: flex;
@@ -124,6 +125,7 @@ body{
 }
 
 .cost_effective2{
+    margin-bottom: .5rem;
     width: 80%;
     color: white;
 }
@@ -154,6 +156,11 @@ body{
     color: white;
 }
 
+.gmail1{
+    color: white;
+    text-decoration: none;
+}
+
 .touchup{
     color: white;
     text-decoration: none;
@@ -165,9 +172,35 @@ body{
     color: white;
 }
 
+.icons{
+    /* align-items: center; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons a{
+    color: white;
+}
+
 .socialicons{
     color: white;
     text-decoration: none;
     font-size: 35px;
     font-style: italic;
+}
+
+@media screen and (max-width:720px){
+    .first{
+        flex-direction: column;
+    }
+    .final{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:720px) {
+    .cost_effective,.eco{
+            height: 270px;
+    }
 }
